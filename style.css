@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.homepage {
+  background-image: url("https://github.com/pasha-log/coalition-frontend-challenge/blob/main/images/lam-top-image.png?raw=true");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.nav-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.section-container-home {
+  display: flex;
+}
+.nav-option {
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: 500;
+  font-style: italic;
+}
+.nav-history {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+@media all and (max-width: 900px) {
+  .nav-history {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.nav-option-history {
+  color: rgb(9, 9, 88);
+  text-decoration: underline;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.container-history {
+  background-image: url("https://github.com/pasha-log/coalition-frontend-challenge/blob/main/images/lam-middle-image.png?raw=true");
+  height: 140vh;
+  width: 100%;
+  background-size: cover;
+}
+.content-container-history {
+  width: 60%;
+  height: 400px;
+}
+.title-image-history {
+  height: 100px;
+  width: 200px;
+}
+.para-history {
+  font-weight: 600;
+  color: rgb(9, 9, 88);
+}
+@media all and (max-width: 60px) {
+  .title-image-history {
+    height: 70px;
+    width: 140px;
+  }
+  .para-history {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.carousel {
+  height: 200px;
+  width: 70%;
+}
+
+.carousel-slider {
+  height: 200px;
+  width: 100%;
+  margin-right: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.flickity-page-dots {
+  top: 9.25rem;
+}
+
+.flickity-page-dots-button {
+  background-color: rgba(255, 255, 255, 0.475);
+}
+.images-large-history {
+  margin-top: 200px;
+}
+.dot-slider-history {
+  color: white;
+  font-size: 60px;
+}
+.nav-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.title-second-image {
+  height: 70px;
+  width: 130px;
+}
+.para-team {
+  font-weight: 600;
+  color: rgb(9, 9, 88);
+  font-size: 15px;
+}
+@media all and (min-width: 600px) {
+  .para-team {
+    margin-top: 30px;
+  }
+}
+.mountain-container {
+  background-color: rgb(5, 5, 65);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  padding-left: 17px;
+}
+.mountain-one {
+  background-color: rgb(169, 169, 204);
+  color: rgb(5, 5, 65);
+  text-decoration: underline;
+  height: 50px;
+  margin-right: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.mountain-two {
+  color: rgb(169, 169, 204);
+  height: 50px;
+  margin-right: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+@media all and (min-width: 670px) {
+  .mountain-container {
+    padding-left: 150px;
+  }
+}
+.container-schedule {
+  background-image: url("https://github.com/pasha-log/coalition-frontend-challenge/blob/main/images/lam-tab-1.png?raw=true");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.schedule-image {
+  margin-top: 100px;
+  margin-left: 45px;
+}
+@media all and (min-width: 700px) {
+  .schedule-image {
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+}
+.footer-container {
+  background-color: rgb(33, 33, 112);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para-copyright {
+  color: rgb(127, 127, 173);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 13px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+@media all and (min-width: 679px) {
+  .footer-container {
+    justify-content: space-around;
+  }
+  .para-copyright {
+    font-size: 16px;
+  }
+}
